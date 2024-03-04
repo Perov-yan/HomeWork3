@@ -15,6 +15,21 @@ public class Main {
         System.out.println("Значение переменной y с типом double = " + y);
         System.out.println(" ");
 
+        System.out.println("Задача 2:");
+        float a = 27.12f;
+        long s = 987678965549L;
+        float d = 2.786f;
+        short f = 569;
+        short g = - 159;
+        short h = 27897;
+        byte j = 67;
+        System.out.println("Данное значение: " + a + "можно отнести к float");
+        System.out.println("Данное значение: " + s + "можно отнести к long");
+        System.out.println("Данное значение: " + d + "можно отнести к float");
+        System.out.println("Данное значение: " + f + "можно отнести к short");
+        System.out.println("Данное значение: " + g + "можно отнести к short");
+        System.out.println("Данное значение: " + h + "можно отнести к short");
+        System.out.println("Данное значение: " + j + "можно отнести к byte");
 
 
     }
