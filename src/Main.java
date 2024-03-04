@@ -80,5 +80,25 @@ public class Main {
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
         System.out.println(" ");
 
+        System.out.println("Задача 6:");
+        byte banana = 5;
+        byte bananaWeight = 80;
+        short milk = 200;
+        byte milkWeight = 105;
+        byte iceCream = 2;
+        byte iceCreamWeight = 100;
+        byte egg = 4;
+        byte eggWeight = 70;
+        int totalBananaWeight = banana * bananaWeight;
+        int totalMilkWeight = (milk / 100) * milkWeight;
+        int totalIceCreamWeight = iceCream * iceCreamWeight;
+        int totalEggWeight = egg * eggWeight;
+        int breakfast = totalBananaWeight + totalMilkWeight + totalIceCreamWeight + totalEggWeight;
+        System.out.println("Общий вес завтрака спортсмена в граммах "+ breakfast);
+        float totalBreakfast =  breakfast / 1000f;
+        System.out.println("Общий вес завтрака спортсмена в килограммах "+ totalBreakfast);
+
+
+
     }
 }
