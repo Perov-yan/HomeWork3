@@ -45,5 +45,28 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + paperForOneStudent + " листов бумаги");
         System.out.println(" ");
 
+        System.out.println("Задача 4:");
+        byte bottle = 16;
+        int time = 2;
+        byte hour = 60;
+        byte day = 24;
+        byte mount = 31;
+        int bottlesPerMinut = bottle / time;
+        int bottlesRusult = bottlesPerMinut * time;
+        System.out.println("За " + time + " минуты машина произвела " + bottle + " штук бутылок");
+        System.out.println("За 1 минуту машина произвела " + bottlesPerMinut + " штук бутылок");
+        time = 20;
+        System.out.println("За " + time + " минут машина произвела " + bottlesRusult + " штук бутылок");
+        time = day * hour;
+        bottlesRusult = bottlesPerMinut * time;
+        System.out.println("За сутки (" + time + " минут) машина произвела " + bottlesRusult + " штук бутылок");
+        time = day * 3 * hour;
+        bottlesRusult = bottlesPerMinut * time;
+        System.out.println("За трое суток (" + time + " минут) машина произвела " + bottlesRusult + " штук бутылок");
+        time = mount * day * hour;
+        bottlesRusult = bottlesPerMinut * time;
+        System.out.println("За месяц (" + time + " минут) машина произвела " + bottlesRusult + " штук бутылок");
+        System.out.println(" ");
+
     }
 }
