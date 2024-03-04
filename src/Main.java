@@ -94,11 +94,22 @@ public class Main {
         int totalIceCreamWeight = iceCream * iceCreamWeight;
         int totalEggWeight = egg * eggWeight;
         int breakfast = totalBananaWeight + totalMilkWeight + totalIceCreamWeight + totalEggWeight;
-        System.out.println("Общий вес завтрака спортсмена в граммах "+ breakfast);
         float totalBreakfast =  breakfast / 1000f;
+        System.out.println("Общий вес завтрака спортсмена в граммах "+ breakfast);
         System.out.println("Общий вес завтрака спортсмена в килограммах "+ totalBreakfast);
+        System.out.println(" ");
 
-
+        System.out.println("Задача 7:");
+        byte weight = 7;
+        short lowWeight = 250;
+        short highWeight = 500;
+        int totalWeight = weight * 1000;
+        int dayLowWeight = totalWeight / lowWeight;
+        int dayHighWeight = totalWeight / highWeight;
+        int mediumDay = ( dayHighWeight + dayLowWeight ) / 2;
+        System.out.println( dayLowWeight + " дней уйдет на похудение, если спортсмен будет терять каждый день по " + lowWeight + " грамм или " + dayHighWeight + " дней — если каждый день будет худеть на " + highWeight + " грамм.");
+        System.out.println( mediumDay + " дней в среднем уйдет на похудение");
+        System.out.println(" ");
 
     }
 }
