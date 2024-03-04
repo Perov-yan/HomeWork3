@@ -23,14 +23,27 @@ public class Main {
         short g = - 159;
         short h = 27897;
         byte j = 67;
-        System.out.println("Данное значение: " + a + "можно отнести к float");
-        System.out.println("Данное значение: " + s + "можно отнести к long");
-        System.out.println("Данное значение: " + d + "можно отнести к float");
-        System.out.println("Данное значение: " + f + "можно отнести к short");
-        System.out.println("Данное значение: " + g + "можно отнести к short");
-        System.out.println("Данное значение: " + h + "можно отнести к short");
-        System.out.println("Данное значение: " + j + "можно отнести к byte");
+        System.out.println("Данное значение: " + a + " можно отнести к float");
+        System.out.println("Данное значение: " + s + " можно отнести к long");
+        System.out.println("Данное значение: " + d + " можно отнести к float");
+        System.out.println("Данное значение: " + f + " можно отнести к short");
+        System.out.println("Данное значение: " + g + " можно отнести к short");
+        System.out.println("Данное значение: " + h + " можно отнести к short");
+        System.out.println("Данное значение: " + j + " можно отнести к byte");
+        System.out.println(" ");
 
+        System.out.println("Задача 3:");
+        byte pavlovnaClass = 23;
+        byte sergeevnaClass = 27;
+        byte andreevnaClass = 30;
+        short paper = 480;
+        int paperForOneStudent = paper / (pavlovnaClass + sergeevnaClass + andreevnaClass);
+        System.out.println("В классе Людмилы Павловны " + pavlovnaClass + " учеников");
+        System.out.println("В классе Анны Сергеевны " + sergeevnaClass + " учеников");
+        System.out.println("В классе Екатерины Андреевны " + andreevnaClass + " учеников");
+        System.out.println("Всего  " + paper + " листов бумаги");
+        System.out.println("На каждого ученика рассчитано " + paperForOneStudent + " листов бумаги");
+        System.out.println(" ");
 
     }
 }
