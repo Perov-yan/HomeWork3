@@ -76,6 +76,7 @@ public class Main {
         int totalClass = totalPaint / paintForClass;
         int totalWhitePaint = totalClass * whitePaint;
         int totalBrownPaint = totalClass * brownPaint;
+        System.out.println("На 1 класс, нужно " + whitePaint + " банки белой краски и " + brownPaint + " банки коричневой краски, всего банок краски " + totalPaint);
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
         System.out.println(" ");
 
