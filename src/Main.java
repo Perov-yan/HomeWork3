@@ -52,10 +52,10 @@ public class Main {
         byte day = 24;
         byte mount = 31;
         int bottlesPerMinut = bottle / time;
-        int bottlesRusult = bottlesPerMinut * time;
         System.out.println("За " + time + " минуты машина произвела " + bottle + " штук бутылок");
         System.out.println("За 1 минуту машина произвела " + bottlesPerMinut + " штук бутылок");
         time = 20;
+        int bottlesRusult = bottlesPerMinut * time;
         System.out.println("За " + time + " минут машина произвела " + bottlesRusult + " штук бутылок");
         time = day * hour;
         bottlesRusult = bottlesPerMinut * time;
